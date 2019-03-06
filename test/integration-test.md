@@ -4,11 +4,25 @@ Unit tests should already be in place.
 You probably have an idea of how the units should interact.
 Write as much as you can into tests.
 
-- Mock all dependencies that should not be a part of the integration tests.
+#### Mock:
+ - mock all dependencies that should not be a part of the integration tests.
 
-- Single concept for each test.
+#### Single concept:
+ - All tests should test one thing. This must be visible from the test name.
 
-- Make it readable by extracting private functions.
+#### Independent:
+ - States should not persist after a test.
+ - Enabling running a test in isolation.
 
-- Minimize the number of tests. Do you have anything that is already
-  covered in unit tests?
+#### Readable:
+  - Extract private functions or move repeated functionality into help classes.
+  - Structure the tests using the Arrange, Act, Assert principle (or similar).
+
+#### Repeatable:
+  - Run locally; this is the easy part.
+  - Run in dedicated remote environment; What needs to be installed?
+  - Run without internet connection.
+
+#### Minimize:
+  - Do you have anything that is already covered in unit tests?
+  - Fewer tests means faster feedback loops.

@@ -3,14 +3,25 @@
 Remember to use baby steps. compile-test-commit.  
 Both for TDD, and 'only' unit test writing.
 
-- Mock all dependencies, you are testing the bare minimum.
+#### Mock:
+  - mock all dependencies, you are testing the bare minimum.
 
-- Achieve 100% coverage of the code under test.
+#### Code Coverage:
+  - Achieve 100% coverage of the code under test. Enables refactoring.
+  - Don't rely to much on coverage, behavior is more important.
 
-- Test all boundaries.
+#### Boundaries:
+  - Test all boundaries. Still most error prone.
 
-- Single concept for each test.
+#### Readable:
+  - Extract private functions or move repeated functionality into help classes.
+  - Structure the tests using the Arrange, Act, Assert principle (or similar).
 
-- Make it readable by extracting private functions.    
+#### Repeatable:
+  - Run locally; this is the easy part.
+  - Run in dedicated remote environment; What needs to be installed?
+  - Run without internet connection.
 
-- Minimize the number of tests.
+#### Minimize:
+  - Do you have anything that is already covered in unit tests?
+  - Fewer tests means faster feedback loops.
