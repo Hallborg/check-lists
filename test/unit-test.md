@@ -15,7 +15,7 @@ Both for TDD, and 'only' unit test writing.
 
 #### Readable:
   - Extract private functions or move repeated functionality into help classes.
-  - Structure the tests using the Arrange, Act, Assert principle (or similar).
+  - Structure the tests using the Build-Operate-Check principle (or similar).
 
 #### Repeatable:
   - Run locally; this is the easy part.
