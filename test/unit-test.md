@@ -3,8 +3,13 @@
 Remember to use baby steps. compile-test-commit.  
 Both for TDD, and 'only' unit test writing.
 
+#### Unit:
+  - Drive your test by behavior.
+  - Do not test implementation details. Refactoring will break such tests.
+
 #### Mock:
-  - mock all dependencies, you are testing the bare minimum.
+  - Use mocks to make your tests faster or cleaner. Http clients and databases
+    connections are good candidates.  
 
 #### Code Coverage:
   - Achieve 100% coverage of the code under test. Enables refactoring.
