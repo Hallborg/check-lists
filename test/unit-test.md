@@ -1,5 +1,7 @@
 ## Check list for writing unit test ##
 
+Unit: ~ Entity regarded as a structural or functional constituent of a whole ~
+
 Remember to use baby steps. compile-test-commit.  
 Both for TDD, and 'only' unit test writing.
 

@@ -1,8 +1,8 @@
 ## Check list for writing integration tests ##
 
-Unit tests should already be in place.
+Integration: ~ Assembling units to interact together to create meaning ~
+
 You probably have an idea of how the units should interact.
-Write as much as you can into tests.
 
 #### Mock:
  - mock all dependencies that should not be a part of the integration tests.
